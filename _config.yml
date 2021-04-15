@@ -15,18 +15,18 @@ store:
     # Whether or not the trait list will display conflicts with other traits.
     conflicts: true
     # Whether or not the trait list will display trait stats.
-    stats: true
+    stats: false
     # Whether or not the trait list will display karma type overrides.
-    karma: true
+    karma: false
     # Whether or not the trait list will display whether or not a trait bypasses the trait limit.
-    limit: true
+    limit: false
     # Whether or not the trait list will display trait descriptions.
     description: true
     # Whether or not the trait list will display the command a viewer should type for adding/removing that trait.
     usage: false
   kinds:
     # Whether or not the kind list will display karma type overrides.
-    karma: true
+    karma: false
     # Whether or not the kind list will display the command a viewer should type for purchasing that kind.
     usage: false
   items:
@@ -35,13 +35,13 @@ store:
     # Whether or not the item list will display an item's purchase weight.
     weight: true
     # Whether or not the item list will display an item's karma type override.
-    karma: true
+    karma: false
     # Whether or not the item list will display an item's quantity limit.
     quantity: true
     # Whether or not the item list will display the mod that added it.
-    mod: true
+    mod: false
     # Whether or not the item list will display the command a viewer should type for purchasing that item.
-    usage: true
+    usage: false
   events:
     # Whether or not the event list will display the command a viewer should type for purchasing that event.
     usage: false
