@@ -73,10 +73,6 @@ span.metadata {
   td.description {
     font-size: 0.8em;
   }
-  {
-  tr:nth-child(even) {
-      background: #CCC}
-  }
   span.metadata {
     font-size: 0.8em;
     font-style: italic;
