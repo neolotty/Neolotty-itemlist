@@ -46,6 +46,13 @@ table {
     display: table;
 }
 
+table.sortable tbody tr:nth-child(2n) td {
+  background: #ffffff;
+}
+table.sortable tbody tr:nth-child(2n+1) td {
+  background: #cccccc;
+}
+
 th.priceWithData {
     font-size: 0.9em;
     width: 20%;
