@@ -1,6 +1,11 @@
 {
 	"incitems" : [
 	{
+		"abr": "tornado",
+		"price": 5000,
+		"karmatype": "Doom"
+	},
+	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -67,23 +72,28 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 6500,
+		"price": 15000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 15000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "eclipse",
-		"price": 450,
+		"price": 600,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "aurora",
 		"price": 200,
 		"karmatype": "Good"
+	},
+	{
+		"abr": "blight",
+		"price": 2000,
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "animaltame",
@@ -142,13 +152,8 @@
 	},
 	{
 		"abr": "farmanimals",
-		"price": 400,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "wildman",
-		"price": 300,
-		"karmatype": "Good"
+		"price": 800,
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "rarethrumbos",
@@ -207,7 +212,7 @@
 	},
 	{
 		"abr": "dropraid",
-		"price": 1500,
+		"price": 7000,
 		"karmatype": "Bad"
 	},
 	{
@@ -216,9 +221,19 @@
 		"karmatype": "Bad"
 	},
 	{
+		"abr": "siegeraid",
+		"price": 7000,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "mechanoidraid",
 		"price": 2500,
 		"karmatype": "Bad"
+	},
+	{
+		"abr": "infestation",
+		"price": 7000,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "manhunterpack",
@@ -244,6 +259,11 @@
 		"abr": "reviveanypawn",
 		"price": 1200,
 		"karmatype": "Good"
+	},
+	{
+		"abr": "pawn",
+		"price": 1,
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "levelskill",
@@ -356,6 +376,5 @@
 		"karmatype": "Neutral"
 	}
 	],
-	"total": 71
+	"total": 75
 }
-
