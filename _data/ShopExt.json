@@ -3,8 +3,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Abrasive",
       "degree": 0,
       "name": "abrasive",
@@ -26,8 +26,103 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_AbsentMinded",
+      "degree": 0,
+      "name": "absent-minded",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "workaholic",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy tends to occasionally allow their mind to drift, even in the middle of working.",
+      "stats": [],
+      "conflicts": [
+        "workaholic",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Academian",
+      "degree": 0,
+      "name": "academian",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 intellectual",
+          "+4 medical",
+          "+20% medical tend quality"
+        ]
+      },
+      "description": "Whether through studying ancient manuscripts or years of scholastic pursuit Timmy is surprisingly well read on a variety of topics, particularly science and medical practice.",
+      "stats": [
+        "+4 intellectual",
+        "+4 medical",
+        "+20% medical tend quality"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Adorable",
+      "degree": 0,
+      "name": "adorable",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+5 social",
+          "+5 animals",
+          "+5 plants",
+          "+25.00% train animal chance",
+          "+25.00% tame animal chance",
+          "+2.0 beauty",
+          "+50.00% trade price improvement",
+          "+50.00% social impact"
+        ]
+      },
+      "description": "Timmy is adorable being with smooth and charming voice. There is something mysterious about him that attracts everyone around. Even plants start to bloom around Timmy...",
+      "stats": [
+        "+5 social",
+        "+5 animals",
+        "+5 plants",
+        "+25.00% train animal chance",
+        "+25.00% tame animal chance",
+        "+2.0 beauty",
+        "+50.00% trade price improvement",
+        "+50.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA07dwzy",
       "degree": 0,
       "name": "animalfriend",
@@ -61,8 +156,56 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_AnimalHater",
+      "degree": 0,
+      "name": "animalhater",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "animallover",
+          "menagerist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy believes deeply in human superiority. Killing animals will please them and the colony losing an animal is a cherry on top according to them.",
+      "stats": [],
+      "conflicts": [
+        "animallover",
+        "menagerist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_AnimalLover",
+      "degree": 0,
+      "name": "animallover",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "animalhater"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy can't stand mistreatment of animals. he will feel happier being nuzzled or being a master to a bonded animal, but will be more deeply crushed when not master of a bonded animal or seeing one die. They also refuse to butcher.",
+      "stats": [],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "AnnoyingVoice",
       "degree": 0,
       "name": "annoyingvoice",
@@ -86,8 +229,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Anxious",
+      "degree": 0,
+      "name": "anxious",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "fun-loving"
+        ],
+        "customName": false,
+        "stats": [
+          "Only mental break \"VTE_PanicFreezing\" allowed."
+        ]
+      },
+      "description": "Timmy feels naturally anxious, but especially from social situations. They will not attend any gatherings and may occasionally need alone time in their room to breathe.",
+      "stats": [
+        "Only mental break \"VTE_PanicFreezing\" allowed."
+      ],
+      "conflicts": [
+        "fun-loving"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC01jzds",
       "degree": 0,
       "name": "architect",
@@ -123,8 +293,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC16dmfs",
       "degree": 0,
       "name": "archmage",
@@ -164,8 +334,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC12jhsr",
       "degree": 0,
       "name": "armsdealer",
@@ -205,8 +375,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Artisan",
       "degree": 2,
       "name": "artisan",
@@ -264,8 +434,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA09dkj",
       "degree": 0,
       "name": "artist",
@@ -293,8 +463,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Ascetic",
       "degree": 0,
       "name": "ascetic",
@@ -326,27 +496,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Asexual",
       "degree": 0,
       "name": "asexual",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [],
+        "conflicts": [
+          "bisexual",
+          "gay",
+          "straight",
+          "polyamorous"
+        ],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy has no sexual attraction to anyone at all.",
+      "description": "Timmy is uninterested in romantic entanglements.",
       "stats": [],
-      "conflicts": [],
+      "conflicts": [
+        "bisexual",
+        "gay",
+        "straight",
+        "polyamorous"
+      ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB22ck",
       "degree": 0,
       "name": "assassin",
@@ -378,8 +558,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE01aydzn",
       "degree": 0,
       "name": "ayi'sguide",
@@ -407,8 +587,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ01dmg",
       "degree": 0,
       "name": "badfortune",
@@ -446,8 +626,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTS01by",
       "degree": 0,
       "name": "bear",
@@ -513,8 +693,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Beauty",
       "degree": 2,
       "name": "beautiful",
@@ -536,18 +716,18 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "Bisexual",
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_BigBoned",
       "degree": 0,
-      "name": "bisexual",
+      "name": "big-boned",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy is romantically attracted to both men and women.",
+      "description": "Whether because they're a bit chunky or because they shift their weight oddly, Timmy has broken a few chairs in their time and is likely to break more.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -555,8 +735,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Bisexual",
+      "degree": 0,
+      "name": "bisexual",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "asexual",
+          "gay",
+          "straight"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is romantically attracted to people regardless of gender.",
+      "stats": [],
+      "conflicts": [
+        "asexual",
+        "gay",
+        "straight"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC15zj",
       "degree": 0,
       "name": "bishop",
@@ -596,8 +803,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA08tj",
       "degree": 0,
       "name": "blacksmith",
@@ -627,8 +834,45 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "RF_BlessingOfZir",
+      "degree": 0,
+      "name": "blessingofzir",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "zir'scorruption"
+        ],
+        "customName": false,
+        "stats": [
+          "+50% mechanoid shredding efficiency",
+          "+100% construct success chance",
+          "x125% general labor speed",
+          "x150% smelting speed",
+          "x125% construction speed",
+          "x200% mechanoid shredding speed"
+        ]
+      },
+      "description": "Timmy has received the blessing of machine god Zir!\nTimmy is able to easily understand the inner workings of machines and devices, allowing him to craft and build items of higher quality as well as work faster.",
+      "stats": [
+        "+50% mechanoid shredding efficiency",
+        "+100% construct success chance",
+        "x125% general labor speed",
+        "x150% smelting speed",
+        "x125% construction speed",
+        "x200% mechanoid shredding speed"
+      ],
+      "conflicts": [
+        "zir'scorruption"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Bloodlust",
       "degree": 0,
       "name": "bloodlust",
@@ -650,8 +894,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "BodyPurist",
       "degree": 0,
       "name": "bodypurist",
@@ -673,8 +917,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS03tslx",
       "degree": 0,
       "name": "bornleader",
@@ -778,8 +1022,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTC02tsjg",
       "degree": 0,
       "name": "bornwarrior",
@@ -815,8 +1059,39 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Brave",
+      "degree": 0,
+      "name": "brave",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "wimp",
+          "coward"
+        ],
+        "customName": false,
+        "stats": [
+          "-20% mental break threshold",
+          "+20% pain shock threshold"
+        ]
+      },
+      "description": "Timmy has a higher mental and physical fortitude compared to most and can more readily adapt to harsh environments in the rimworlds.",
+      "stats": [
+        "-20% mental break threshold",
+        "+20% pain shock threshold"
+      ],
+      "conflicts": [
+        "wimp",
+        "coward"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA14yg",
       "degree": 0,
       "name": "brave",
@@ -850,8 +1125,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Brawler",
       "degree": 0,
       "name": "brawler",
@@ -887,8 +1162,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Cannibal",
       "degree": 0,
       "name": "cannibal",
@@ -910,8 +1185,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ03rx",
       "degree": 0,
       "name": "capricious",
@@ -949,8 +1224,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ShootingAccuracy",
       "degree": 1,
       "name": "carefulshooter",
@@ -978,8 +1253,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE03csdsc",
       "degree": 0,
       "name": "cass'shandbook",
@@ -1007,8 +1282,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_CatPerson",
+      "degree": 0,
+      "name": "catperson",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "dogperson"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is mad for all things feline. They will naturally gravitate towards bonding with cats, however they're not a fan of dogs.",
+      "stats": [],
+      "conflicts": [
+        "dogperson"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB24tls",
       "degree": 0,
       "name": "channeler",
@@ -1044,8 +1342,45 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "PTB13dc",
+      "degree": 0,
+      "name": "chef",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ascetic"
+        ],
+        "customName": false,
+        "stats": [
+          "+2 cooking",
+          "+3.0 cooking speed",
+          "-15.00% food poison chance",
+          "+50% butchery speed",
+          "+20% butchery efficiency",
+          "x120% butchery speed"
+        ]
+      },
+      "description": "Timmy is very good at slaughtering and cooking.",
+      "stats": [
+        "+2 cooking",
+        "+3.0 cooking speed",
+        "-15.00% food poison chance",
+        "+50% butchery speed",
+        "+20% butchery efficiency",
+        "x120% butchery speed"
+      ],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Chef",
       "degree": 0,
       "name": "chef",
@@ -1109,45 +1444,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "PTB13dc",
-      "degree": 0,
-      "name": "chef",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "ascetic"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 cooking",
-          "+3.0 cooking speed",
-          "-15.00% food poison chance",
-          "+50% butchery speed",
-          "+20% butchery efficiency",
-          "x120% butchery speed"
-        ]
-      },
-      "description": "Timmy is very good at slaughtering and cooking.",
-      "stats": [
-        "+2 cooking",
-        "+3.0 cooking speed",
-        "-15.00% food poison chance",
-        "+50% butchery speed",
-        "+20% butchery efficiency",
-        "x120% butchery speed"
-      ],
-      "conflicts": [
-        "ascetic"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "DrugDesire",
       "degree": 2,
       "name": "chemicalfascination",
@@ -1171,8 +1469,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "DrugDesire",
       "degree": 1,
       "name": "chemicalinterest",
@@ -1196,8 +1494,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB12yjs",
       "degree": 0,
       "name": "chemist",
@@ -1229,8 +1527,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS04zrzz",
       "degree": 0,
       "name": "childofnature",
@@ -1272,8 +1570,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ11ybz",
       "degree": 0,
       "name": "claustrophobia",
@@ -1295,8 +1593,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB27qhr",
       "degree": 0,
       "name": "clone",
@@ -1332,8 +1630,58 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Clumsy",
+      "degree": 0,
+      "name": "clumsy",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "nimble"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Minor bruises and scrapes plague Timmy all too often, mostly due to uncoordinated tripping or falling.",
+      "stats": [],
+      "conflicts": [
+        "nimble"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_ColdInclined",
+      "degree": 0,
+      "name": "coldinclined",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "heatinclined"
+        ],
+        "customName": false,
+        "stats": [
+          "-18.0F Minimum comfortable temperature"
+        ]
+      },
+      "description": "Timmy loves the overcast and cold of a brisk winter night. They don't mind getting chilly or sleeping in the cold either.",
+      "stats": [
+        "-18.0F Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "heatinclined"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC06jj",
       "degree": 0,
       "name": "consummatecraftsman",
@@ -1369,8 +1717,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB06lc",
       "degree": 0,
       "name": "coolheaded",
@@ -1422,8 +1770,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTB01tzz",
       "degree": 0,
       "name": "coordinator",
@@ -1459,8 +1807,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_CouchPotato",
+      "degree": 0,
+      "name": "couchpotato",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "An armchair and flatscreen is all Timmy needs to be happy. Even reruns or ancient commercials are entertaining to them, they will never grow bored of television and tend to watch it more, as well as feel pleased after doing so.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA01hlzy",
       "degree": 0,
       "name": "coverfire",
@@ -1490,8 +1857,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Coward",
+      "degree": 0,
+      "name": "coward",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "brawler",
+          "brave",
+          "bloodlust"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "While fully capable of warfare in theory, Timmy's fight or flight instincts heavily lean towards flight, and he will try to hide or run as a first priority.",
+      "stats": [],
+      "conflicts": [
+        "brawler",
+        "brave",
+        "bloodlust"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Artisan",
       "degree": 1,
       "name": "crafter",
@@ -1551,8 +1945,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA17cf",
       "degree": 0,
       "name": "craftsman",
@@ -1578,8 +1972,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Creative",
       "degree": 0,
       "name": "creative(outdated)",
@@ -1603,8 +1997,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "CreepyBreathing",
       "degree": 0,
       "name": "creepybreathing",
@@ -1622,8 +2016,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ12bzdl",
       "degree": 0,
       "name": "cross-dressing",
@@ -1641,8 +2035,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTZ01xkdns",
       "degree": 0,
       "name": "deathstare",
@@ -1672,8 +2066,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTC01rrwg",
       "degree": 0,
       "name": "delicate",
@@ -1709,8 +2103,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "NaturalMood",
       "degree": -2,
       "name": "depressive",
@@ -1736,8 +2130,66 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Desensitized",
+      "degree": 0,
+      "name": "desensitized",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "squeamish"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is hardened through what can only be presumed as old emotional trauma. They feel absolutely nothing from lost animals, colonists, family, prisoners or dead bodies.",
+      "stats": [],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "ATK_DesignerMate",
+      "degree": 0,
+      "name": "designerheritage",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "beautiful",
+          "pretty",
+          "ugly",
+          "staggeringlyugly",
+          "jealous"
+        ],
+        "customName": false,
+        "stats": [
+          "+3.0 beauty"
+        ]
+      },
+      "description": "Timmy is the descendant of a designer mate. Though most of his ancestral traits are diluted, he is still extremely beautiful and cheerful.",
+      "stats": [
+        "+3.0 beauty"
+      ],
+      "conflicts": [
+        "beautiful",
+        "pretty",
+        "ugly",
+        "staggeringlyugly",
+        "jealous"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS01yz",
       "degree": 0,
       "name": "diligentfighter",
@@ -1787,8 +2239,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Diplomat",
       "degree": 0,
       "name": "diplomat",
@@ -1852,8 +2304,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ChildrenDislikesChildren",
       "degree": 0,
       "name": "dislikeschildren",
@@ -1871,8 +2323,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA25ys",
       "degree": 0,
       "name": "doctor",
@@ -1900,8 +2352,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_DogPerson",
+      "degree": 0,
+      "name": "dogperson",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "catperson"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is mad for all things canine. They will naturally gravitate towards bonding with dogs, however they're not a fan of cats.",
+      "stats": [],
+      "conflicts": [
+        "catperson"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD06ds",
       "degree": 0,
       "name": "dokuzetu",
@@ -1965,8 +2440,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTF03mrqw",
       "degree": 0,
       "name": "doomsdayboxer",
@@ -2006,8 +2481,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC02wjj",
       "degree": 0,
       "name": "drillingexpert",
@@ -2041,8 +2516,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB09qgqc",
       "degree": 0,
       "name": "dropdeadgorgeous",
@@ -2074,8 +2549,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_DrunkenMaster",
+      "degree": 0,
+      "name": "drunkenmaster",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 melee"
+        ]
+      },
+      "description": "Timmy is supposedly a hand-to-hand combat specialist, but only when inebriated. They claim to become more talented the more drunk they are.",
+      "stats": [
+        "+4 melee"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ06rgfl",
       "degree": 0,
       "name": "dualpersonality",
@@ -2121,8 +2619,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Fighter",
       "degree": 1,
       "name": "duelist",
@@ -2184,8 +2682,43 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Dunce",
+      "degree": 0,
+      "name": "dunce",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "fastlearner",
+          "toosmart",
+          "eccentric",
+          "prodigy"
+        ],
+        "customName": false,
+        "stats": [
+          "-50% global learning factor",
+          "-50.00% social impact"
+        ]
+      },
+      "description": "Timmy has hindered mental capacities. While slow to learn and hard to speak with, they tend to be much happier naturally.",
+      "stats": [
+        "-50% global learning factor",
+        "-50.00% social impact"
+      ],
+      "conflicts": [
+        "fastlearner",
+        "toosmart",
+        "eccentric",
+        "prodigy"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA16rz",
       "degree": 0,
       "name": "earnest",
@@ -2211,8 +2744,64 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Eccentric",
+      "degree": 0,
+      "name": "eccentric",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "dunce"
+        ],
+        "customName": false,
+        "stats": [
+          "x115% research speed"
+        ]
+      },
+      "description": "Timmy has a loose screw or two, a small trade off for being naturally scientifically inclined.",
+      "stats": [
+        "x115% research speed"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Ecologist",
+      "degree": 0,
+      "name": "ecologist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 animals",
+          "+4 plants",
+          "+20% plant harvest yield",
+          "+20% butchery efficiency"
+        ]
+      },
+      "description": "Flora and fauna are both vital to Timmy. They use all parts of plants and animals and strongly appreciate mother Gaia's blessings.",
+      "stats": [
+        "+4 animals",
+        "+4 plants",
+        "+20% plant harvest yield",
+        "+20% butchery efficiency"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB03yy",
       "degree": 0,
       "name": "elegant",
@@ -2262,8 +2851,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB14gcs",
       "degree": 0,
       "name": "engineer",
@@ -2295,8 +2884,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA13rq",
       "degree": 0,
       "name": "enthusiasm",
@@ -2326,8 +2915,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB23gzs",
       "degree": 0,
       "name": "executioner",
@@ -2359,8 +2948,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB15ktj",
       "degree": 0,
       "name": "explorer",
@@ -2390,8 +2979,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTC04cfts",
       "degree": 0,
       "name": "extraordinary",
@@ -2429,8 +3018,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE07wlkjcm",
       "degree": 0,
       "name": "f.t.adviser",
@@ -2460,8 +3049,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE08wlkjdsz",
       "degree": 0,
       "name": "f.t.chairman",
@@ -2499,8 +3088,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE06wlkjjm",
       "degree": 0,
       "name": "f.t.pariah",
@@ -2530,8 +3119,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Faith",
       "degree": 0,
       "name": "faith",
@@ -2563,8 +3152,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Faithful",
+      "degree": 0,
+      "name": "faithful",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "philanderer"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy will never cheat on a partner, no matter how bad the relationship gets.",
+      "stats": [],
+      "conflicts": [
+        "philanderer"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA06nf",
       "degree": 0,
       "name": "farmer",
@@ -2592,8 +3204,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "FastLearner",
       "degree": 0,
       "name": "fastlearner",
@@ -2615,8 +3227,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "SpeedOffset",
       "degree": 1,
       "name": "fastwalker",
@@ -2638,41 +3250,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "PTA02gdzj",
-      "degree": 0,
-      "name": "fighter",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "wimp"
-        ],
-        "customName": false,
-        "stats": [
-          "+1 melee",
-          "+1.0 melee hit chance",
-          "+5.0 melee dodge chance",
-          "x80% incoming damage multiplier"
-        ]
-      },
-      "description": "Timmy is so flexible that he fights well. he'll be so brave while wounded.",
-      "stats": [
-        "+1 melee",
-        "+1.0 melee hit chance",
-        "+5.0 melee dodge chance",
-        "x80% incoming damage multiplier"
-      ],
-      "conflicts": [
-        "wimp"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Fighter",
       "degree": 3,
       "name": "fighter",
@@ -2734,8 +3313,41 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "PTA02gdzj",
+      "degree": 0,
+      "name": "fighter",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "wimp"
+        ],
+        "customName": false,
+        "stats": [
+          "+1 melee",
+          "+1.0 melee hit chance",
+          "+5.0 melee dodge chance",
+          "x80% incoming damage multiplier"
+        ]
+      },
+      "description": "Timmy is so flexible that he fights well. he'll be so brave while wounded.",
+      "stats": [
+        "+1 melee",
+        "+1.0 melee hit chance",
+        "+5.0 melee dodge chance",
+        "x80% incoming damage multiplier"
+      ],
+      "conflicts": [
+        "wimp"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VCEF_Fisherman",
       "degree": 0,
       "name": "fisherman",
@@ -2753,8 +3365,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA21jj",
       "degree": 0,
       "name": "frugal",
@@ -2780,8 +3392,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_FunLoving",
+      "degree": 0,
+      "name": "fun-loving",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "anxious"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy always recalls the good times and lives to party, any party attended will be remembered for many times longer than most.",
+      "stats": [],
+      "conflicts": [
+        "anxious"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTB03hj",
       "degree": 0,
       "name": "funny",
@@ -2807,8 +3442,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTE01gsdzf",
       "degree": 0,
       "name": "gaoshi'sblessing",
@@ -2836,8 +3471,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA27yd",
       "degree": 0,
       "name": "gardener",
@@ -2865,27 +3500,62 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "Gay",
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Gastronomist",
       "degree": 0,
-      "name": "gay",
+      "name": "gastronomist",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": []
+        "stats": [
+          "+4 cooking",
+          "+4 artistic",
+          "-25.00% food poison chance"
+        ]
       },
-      "description": "Timmy is romantically attracted to people of his own gender.",
-      "stats": [],
+      "description": "In the eyes of Timmy food is art, their culinary creations are incredibly beautiful, amazing to taste, and almost always safe to eat.",
+      "stats": [
+        "+4 cooking",
+        "+4 artistic",
+        "-25.00% food poison chance"
+      ],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Gay",
+      "degree": 0,
+      "name": "gay",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "asexual",
+          "bisexual",
+          "straight"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is romantically attracted to people of his own gender.",
+      "stats": [],
+      "conflicts": [
+        "asexual",
+        "bisexual",
+        "straight"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC09tc",
       "degree": 0,
       "name": "genius",
@@ -2921,8 +3591,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD03yq",
       "degree": 0,
       "name": "genkisa",
@@ -2970,8 +3640,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Hygienic",
+      "degree": 2,
+      "name": "germaphobe",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is obsessed with germs and will wash much more frequently than normal.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA05hcy",
       "degree": 0,
       "name": "goodcooking",
@@ -2999,8 +3688,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB07hy",
       "degree": 0,
       "name": "goodfortune",
@@ -3036,8 +3725,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Gourmand",
       "degree": 0,
       "name": "gourmand",
@@ -3049,13 +3738,15 @@
         "customName": false,
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
+          "+4 cooking",
+          "x75% eating speed"
         ]
       },
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "+4 cooking",
+        "x75% eating speed"
       ],
       "conflicts": [
         "ascetic"
@@ -3065,8 +3756,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "GreatMemory",
       "degree": 0,
       "name": "greatmemory",
@@ -3084,8 +3775,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Greedy",
       "degree": 0,
       "name": "greedy",
@@ -3115,8 +3806,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Groundbreaker",
+      "degree": 0,
+      "name": "groundbreaker",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 mining",
+          "+4 construction",
+          "+20% mining yield",
+          "+20% construction speed"
+        ]
+      },
+      "description": "Timmy strongly believes infrastucture rules all and is a natural born stoneworker.",
+      "stats": [
+        "+4 mining",
+        "+4 construction",
+        "+20% mining yield",
+        "+20% construction speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ05ydt",
       "degree": 0,
       "name": "gull",
@@ -3146,8 +3866,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Gunslinger",
       "degree": 0,
       "name": "gunslinger",
@@ -3209,8 +3929,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA19zg",
       "degree": 0,
       "name": "handyman",
@@ -3236,8 +3956,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD05fh",
       "degree": 0,
       "name": "harakuro",
@@ -3309,8 +4029,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Industriousness",
       "degree": 1,
       "name": "hardworker",
@@ -3332,8 +4052,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "FeelingsTowardHumanity",
+      "degree": 2,
+      "name": "hateshumanity",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has a deep hatred toward all of humanity, seeing them as nothing more than egotistical meatbags.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Hauler",
       "degree": 0,
       "name": "hauler",
@@ -3393,8 +4132,54 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_HeatInclined",
+      "degree": 0,
+      "name": "heatinclined",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "coldinclined"
+        ],
+        "customName": false,
+        "stats": [
+          "+18.0F Maximum comfortable temperature"
+        ]
+      },
+      "description": "Timmy loves the brightness and heat of a dry summer day. They don't mind working up a sweat or sleeping in the warmth either.",
+      "stats": [
+        "+18.0F Maximum comfortable temperature"
+      ],
+      "conflicts": [
+        "coldinclined"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_HeavySleeper",
+      "degree": 0,
+      "name": "heavysleeper",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "A bomb could go off next to Timmy while they sleep and they'd continue to do so. They can't be bothered to defend the colony mid catnap, either.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Herbalist",
       "degree": 0,
       "name": "herbalist",
@@ -3456,8 +4241,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ09kw",
       "degree": 0,
       "name": "hubris",
@@ -3493,8 +4278,41 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "PTA24lr",
+      "degree": 0,
+      "name": "hunter",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "brawler"
+        ],
+        "customName": false,
+        "stats": [
+          "+1 shooting",
+          "+15% hunting stealth",
+          "+30.00% train animal chance",
+          "x120% shooting accuracy"
+        ]
+      },
+      "description": "Timmy is good at hunting.",
+      "stats": [
+        "+1 shooting",
+        "+15% hunting stealth",
+        "+30.00% train animal chance",
+        "x120% shooting accuracy"
+      ],
+      "conflicts": [
+        "brawler"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Tamer",
       "degree": 2,
       "name": "hunter",
@@ -3554,41 +4372,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "PTA24lr",
-      "degree": 0,
-      "name": "hunter",
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Hygienic",
+      "degree": 1,
+      "name": "hygienic",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "brawler"
-        ],
+        "conflicts": [],
         "customName": false,
-        "stats": [
-          "+1 shooting",
-          "+15% hunting stealth",
-          "+30.00% train animal chance",
-          "x120% shooting accuracy"
-        ]
+        "stats": []
       },
-      "description": "Timmy is good at hunting.",
-      "stats": [
-        "+1 shooting",
-        "+15% hunting stealth",
-        "+30.00% train animal chance",
-        "x120% shooting accuracy"
-      ],
-      "conflicts": [
-        "brawler"
-      ],
+      "description": "Timmy is very hygienic and will wash more frequently.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB19ox",
       "degree": 0,
       "name": "idol",
@@ -3622,10 +4426,10 @@
       "bypassLimit": false
     },
     {
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
-      "addPrice": 20000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Immortal",
       "degree": 0,
       "name": "immortal",
@@ -3647,8 +4451,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB02tb",
       "degree": 0,
       "name": "impregnable",
@@ -3684,8 +4488,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Jaded",
       "degree": 0,
       "name": "indifferent",
@@ -3711,8 +4515,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Industriousness",
       "degree": 2,
       "name": "industrious",
@@ -3734,8 +4538,97 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Insatiable",
+      "degree": 0,
+      "name": "insatiable",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "prude",
+          "asexual",
+          "nudist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "No amount of lovin' is enough lovin' for Timmy. he will tend to jump from partner to partner and tumble between the sheets with them frequently.",
+      "stats": [],
+      "conflicts": [
+        "prude",
+        "asexual",
+        "nudist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Insomniac",
+      "degree": 0,
+      "name": "insomniac",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "heavysleeper"
+        ],
+        "customName": false,
+        "stats": [
+          "x50% global work speed",
+          "x70% move speed"
+        ]
+      },
+      "description": "Timmy is never really asleep or awake. he is almost zombie like, lurching along and working very slowly, and will only sleep once every three days or so.",
+      "stats": [
+        "x50% global work speed",
+        "x70% move speed"
+      ],
+      "conflicts": [
+        "heavysleeper"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Intolerance",
+      "degree": 0,
+      "name": "intolerance",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "Only mental break \"Berserk\" allowed.",
+          "Only mental break \"Slaughterer\" allowed.",
+          "Only mental break \"MurderousRage\" allowed.",
+          "Only mental break \"SadisticRage\" allowed.",
+          "Only mental break \"InsultingSpree\" allowed.",
+          "-90.00% social impact"
+        ]
+      },
+      "description": "Timmy is intolerant of all lifeforms, whether they be mechanical or biological. There is always a chance they will randomly cause fights, especially when their mood is low.",
+      "stats": [
+        "Only mental break \"Berserk\" allowed.",
+        "Only mental break \"Slaughterer\" allowed.",
+        "Only mental break \"MurderousRage\" allowed.",
+        "Only mental break \"SadisticRage\" allowed.",
+        "Only mental break \"InsultingSpree\" allowed.",
+        "-90.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LingTA02jzlc",
       "degree": 0,
       "name": "invaluable",
@@ -3757,8 +4650,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA12fmj",
       "degree": 0,
       "name": "inventor",
@@ -3784,8 +4677,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_IronStomach",
+      "degree": 0,
+      "name": "ironstomach",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "squeamish"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has never felt nausea in his life. Throwing up or food poisoning is foreign to him.",
+      "stats": [],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nerves",
       "degree": 2,
       "name": "iron-willed",
@@ -3807,8 +4723,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Jealous",
       "degree": 0,
       "name": "jealous",
@@ -3820,12 +4736,18 @@
         ],
         "customName": false,
         "stats": [
-          "Morbid meditation focus type allowed."
+          "Morbid meditation focus type allowed.",
+          "+3 social",
+          "x115% negotiation ability",
+          "x115% trade price improvement"
         ]
       },
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "Morbid meditation focus type allowed.",
+        "+3 social",
+        "x115% negotiation ability",
+        "x115% trade price improvement"
       ],
       "conflicts": [
         "ascetic",
@@ -3836,8 +4758,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "SpeedOffset",
       "degree": 2,
       "name": "jogger",
@@ -3859,8 +4781,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE05kwdxd",
       "degree": 0,
       "name": "kevin'sideas",
@@ -3888,8 +4810,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB11mgsc",
       "degree": 0,
       "name": "killerbody",
@@ -3917,8 +4839,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Kind",
       "degree": 0,
       "name": "kind",
@@ -3942,8 +4864,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC05sw",
       "degree": 0,
       "name": "kingofbeasts",
@@ -3983,8 +4905,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Kleptomaniac",
+      "degree": 0,
+      "name": "kleptomaniac",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "Only mental break \"VTE_Kleptomaniac\" allowed."
+        ]
+      },
+      "description": "Timmy is compulsed to steal and take things that don't belong to them, even if it means angering the other party.",
+      "stats": [
+        "Only mental break \"VTE_Kleptomaniac\" allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Industriousness",
       "degree": -1,
       "name": "lazy",
@@ -3993,12 +4938,14 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "-20% global work speed"
+          "-20% global work speed",
+          "x90% mental break threshold"
         ]
       },
       "description": "Timmy is a little bit lazy.",
       "stats": [
-        "-20% global work speed"
+        "-20% global work speed",
+        "x90% mental break threshold"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -4006,8 +4953,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC08sk",
       "degree": 0,
       "name": "lobbyist",
@@ -4039,8 +4986,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTR02qg",
       "degree": 0,
       "name": "lofty",
@@ -4062,8 +5009,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE09gdxwlb",
       "degree": 0,
       "name": "lonelybarowner",
@@ -4097,8 +5044,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_LoneWolf",
       "degree": 0,
       "name": "lonewolf",
@@ -4190,8 +5137,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LingTB01lth",
       "degree": 0,
       "name": "losequality",
@@ -4219,8 +5166,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "FeelingsTowardHumanity",
+      "degree": 1,
+      "name": "loveshumanity",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has a deep fondness toward all humans, seeing them as not only their own creators but as parental figures.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LingTZ01dmyz",
       "degree": 0,
       "name": "lowimmunity",
@@ -4248,8 +5214,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA18fmg",
       "degree": 0,
       "name": "lumberjack",
@@ -4275,8 +5241,60 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Lush",
+      "degree": 0,
+      "name": "lush",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Alcohol culture is just part of life for Timmy. he absolutely adores booze and would rather die before giving it up.",
+      "stats": [],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_MadSurgeon",
+      "degree": 0,
+      "name": "madsurgeon",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+20% surgery success chance factor"
+        ]
+      },
+      "description": "Timmy has a twisted secret. he treats organ harvesting like a sick experiment, and does not even blink at the idea. While harvesting one will make them happy, going too long without giving in to their compulsion will upset them.",
+      "stats": [
+        "+20% surgery success chance factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTA02mfsn",
       "degree": 0,
       "name": "magicgirl",
@@ -4306,8 +5324,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_MartialArtist",
+      "degree": 0,
+      "name": "martialartist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy learned a specific move in melee combat which allows them to disarm opponents and will use it frequently.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB25wx",
       "degree": 0,
       "name": "martialarts",
@@ -4343,8 +5380,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Masochist",
       "degree": 0,
       "name": "masochist",
@@ -4366,8 +5403,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Mason",
       "degree": 0,
       "name": "mason",
@@ -4429,8 +5466,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC03cs",
       "degree": 0,
       "name": "masterchef",
@@ -4466,8 +5503,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Fighter",
       "degree": 2,
       "name": "meatshield",
@@ -4529,8 +5566,60 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "MechAtlas",
+      "degree": 0,
+      "name": "mech",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "-90.00% social impact"
+        ]
+      },
+      "description": "A mechanized infantry unit, they do not think or feel.",
+      "stats": [
+        "-90.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Menagerist",
+      "degree": 0,
+      "name": "menagerist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "animalhater"
+        ],
+        "customName": false,
+        "stats": [
+          "x120% tame animal chance",
+          "x120% train animal chance"
+        ]
+      },
+      "description": "Timmy believes animals are integral to the way society and life functions from furry friends to sources of food. They love having as many as possible and are particularly good at taming and training them.",
+      "stats": [
+        "x120% tame animal chance",
+        "x120% train animal chance"
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB04jy",
       "degree": 0,
       "name": "militarysurgeon",
@@ -4560,8 +5649,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA04kg",
       "degree": 0,
       "name": "miner",
@@ -4589,8 +5678,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Miner",
       "degree": 0,
       "name": "miner",
@@ -4654,8 +5743,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE02mdxqm",
       "degree": 0,
       "name": "min'stips",
@@ -4685,8 +5774,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "DislikesMen",
       "degree": 0,
       "name": "misandrist",
@@ -4704,8 +5793,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ08ls",
       "degree": 0,
       "name": "miser",
@@ -4733,8 +5822,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "DislikesWomen",
       "degree": 0,
       "name": "misogynist",
@@ -4752,8 +5841,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_ChildOfMountain",
+      "degree": 0,
+      "name": "mountainlover",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "The mountains call to Timmy. he feels happier just being near a large mountain.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ10mg",
       "degree": 0,
       "name": "muggle",
@@ -4785,8 +5893,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD02sw",
       "degree": 0,
       "name": "mukuchi",
@@ -4870,8 +5978,33 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "MutationAffinity",
+      "degree": 0,
+      "name": "mutationaffinity",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "transhumanist",
+          "bodypurist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is intrigued by the idea of becoming something other than human.",
+      "stats": [],
+      "conflicts": [
+        "transhumanist",
+        "bodypurist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Miraculous",
       "degree": 0,
       "name": "mysteriousenergy",
@@ -4903,8 +6036,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ChildrenNaturalColonyChild",
       "degree": 0,
       "name": "naturalborncolony-child",
@@ -4926,8 +6059,56 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "NaturalHunter",
+      "degree": 0,
+      "name": "naturalhunter",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+1 shooting",
+          "+1 animals"
+        ]
+      },
+      "description": "Timmy is now a natural hunter.",
+      "stats": [
+        "+1 shooting",
+        "+1 animals"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Neat",
+      "degree": 0,
+      "name": "neat",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "slob"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is naturally hygenic and organized. They will not track in dirt or throw trash anywhere, and feel happy while cleaning.",
+      "stats": [],
+      "conflicts": [
+        "slob"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nerves",
       "degree": -1,
       "name": "nervous",
@@ -4936,12 +6117,16 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "+8% mental break threshold"
+          "+2 intellectual",
+          "+8% mental break threshold",
+          "x110% global learning factor"
         ]
       },
       "description": "Timmy tends to crack under pressure.",
       "stats": [
-        "+8% mental break threshold"
+        "+2 intellectual",
+        "+8% mental break threshold",
+        "x110% global learning factor"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -4949,8 +6134,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Neurotic",
       "degree": 1,
       "name": "neurotic",
@@ -4974,8 +6159,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC17xrl",
       "degree": 0,
       "name": "newtype",
@@ -5013,8 +6198,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA23hsc",
       "degree": 0,
       "name": "nicebody",
@@ -5038,8 +6223,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA22mmdsy",
       "degree": 0,
       "name": "nicevoice",
@@ -5065,8 +6250,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "NightOwl",
       "degree": 0,
       "name": "nightowl",
@@ -5084,8 +6269,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nimble",
       "degree": 0,
       "name": "nimble",
@@ -5109,8 +6294,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB26gzsr",
       "degree": 0,
       "name": "noblemerchant",
@@ -5146,8 +6331,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB16ymls",
       "degree": 0,
       "name": "nomadichunter",
@@ -5185,8 +6370,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nudist",
       "degree": 0,
       "name": "nudist",
@@ -5204,37 +6389,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "defName": "PTA10zyhl",
-      "degree": 0,
-      "name": "nurse",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+1 medical",
-          "+25% medical tend quality",
-          "+30% medical tend speed",
-          "+15.00% social impact"
-        ]
-      },
-      "description": "Timmy is good at nursing. he can keep calm beside the corpse.",
-      "stats": [
-        "+1 medical",
-        "+25% medical tend quality",
-        "+30% medical tend speed",
-        "+15.00% social impact"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Doctor",
       "degree": 1,
       "name": "nurse",
@@ -5294,8 +6450,56 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "PTA10zyhl",
+      "degree": 0,
+      "name": "nurse",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+1 medical",
+          "+25% medical tend quality",
+          "+30% medical tend speed",
+          "+15.00% social impact"
+        ]
+      },
+      "description": "Timmy is good at nursing. he can keep calm beside the corpse.",
+      "stats": [
+        "+1 medical",
+        "+25% medical tend quality",
+        "+30% medical tend speed",
+        "+15.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_ChildOfSea",
+      "degree": 0,
+      "name": "oceanlover",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "The sea calls to Timmy. he feels happier just being near the ocean or a deep river.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "NaturalMood",
       "degree": 1,
       "name": "optimist",
@@ -5313,8 +6517,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA29fzz",
       "degree": 0,
       "name": "outcast",
@@ -5346,8 +6550,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTE04aksndgw",
       "degree": 0,
       "name": "oxana'sthoughts",
@@ -5373,8 +6577,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC11bdbq",
       "degree": 0,
       "name": "peerlessimmunity",
@@ -5400,8 +6604,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Perfectionist",
+      "degree": 0,
+      "name": "perfectionist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "x65% global work speed"
+        ]
+      },
+      "description": "Timmy strives for perfection in his work. They will naturally produce better quality products at the expense of time. However, making a low quality product will upset them. Additionally, they may very rarely quit a project mid attempt if they don't like the direction its going in.",
+      "stats": [
+        "x65% global work speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "NaturalMood",
       "degree": -1,
       "name": "pessimist",
@@ -5427,8 +6654,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Philanderer",
+      "degree": 0,
+      "name": "philanderer",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "faithful"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy just cannot be trusted to stay faithful to a partner.",
+      "stats": [],
+      "conflicts": [
+        "faithful"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA03nwj",
       "degree": 0,
       "name": "plasterer",
@@ -5458,8 +6708,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Polyamorous",
+      "degree": 0,
+      "name": "polyamorous",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "asexual",
+          "jealous",
+          "greedy"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy prefers romantic relationships involving multiple partners to monogamous relationships. he doesn't mind if his partners romance other people, but will be less happy in a restraining, monogamous relationship.",
+      "stats": [],
+      "conflicts": [
+        "asexual",
+        "jealous",
+        "greedy"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Beauty",
       "degree": 1,
       "name": "pretty",
@@ -5481,8 +6758,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB20js",
       "degree": 0,
       "name": "priest",
@@ -5518,8 +6795,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Prodigy",
+      "degree": 0,
+      "name": "prodigy",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "dunce"
+        ],
+        "customName": false,
+        "stats": [
+          "+20% mental break threshold",
+          "x130% research speed"
+        ]
+      },
+      "description": "Timmy is a natural scientist. They research much faster and recall things better. However, they'll be upset without a laboratory dedicated to their work and tend to stress out more frequently.",
+      "stats": [
+        "+20% mental break threshold",
+        "x130% research speed"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC07yl",
       "degree": 0,
       "name": "professionaldoctor",
@@ -5553,8 +6859,33 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Prude",
+      "degree": 0,
+      "name": "prude",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "insatiable",
+          "nudist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy refuses to give their body to anybody but their spouse and would never fathom initiating a divorce. They also hate being nude much more than other pawns.",
+      "stats": [],
+      "conflicts": [
+        "insatiable",
+        "nudist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Psionic",
       "degree": 0,
       "name": "psionic",
@@ -5616,8 +6947,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PsychicSensitivity",
       "degree": -2,
       "name": "psychicallydeaf",
@@ -5639,8 +6970,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PsychicSensitivity",
       "degree": -1,
       "name": "psychicallydull",
@@ -5662,8 +6993,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PsychicSensitivity",
       "degree": 2,
       "name": "psychicallyhypersensitive",
@@ -5685,8 +7016,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PsychicSensitivity",
       "degree": 1,
       "name": "psychicallysensitive",
@@ -5708,8 +7039,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Psychopath",
       "degree": 0,
       "name": "psychopath",
@@ -5731,8 +7062,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC13cjz",
       "degree": 0,
       "name": "punisher",
@@ -5774,8 +7105,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 2000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Pyromaniac",
       "degree": 0,
       "name": "pyromaniac",
@@ -5785,13 +7116,15 @@
         "customName": false,
         "stats": [
           "Flame meditation focus type allowed.",
-          "Only mental break \"FireStartingSpree\" allowed."
+          "Only mental break \"FireStartingSpree\" allowed.",
+          "x115% Maximum comfortable temperature"
         ]
       },
       "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
       "stats": [
         "Flame meditation focus type allowed.",
-        "Only mental break \"FireStartingSpree\" allowed."
+        "Only mental break \"FireStartingSpree\" allowed.",
+        "x115% Maximum comfortable temperature"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -5799,8 +7132,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "QuickSleeper",
       "degree": 0,
       "name": "quicksleeper",
@@ -5822,8 +7155,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS02ss",
       "degree": 0,
       "name": "rangedreaper",
@@ -5867,8 +7200,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB01jb",
       "degree": 0,
       "name": "ranger",
@@ -5900,8 +7233,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTC03fwgz",
       "degree": 0,
       "name": "rangetelepathy",
@@ -5939,8 +7272,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Rebel",
+      "degree": 0,
+      "name": "rebel",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "submissive"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy only plays by their own rules, and will roll their eyes and take it easy while doing any task they've been forced to do.",
+      "stats": [],
+      "conflicts": [
+        "submissive"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTF01hy",
       "degree": 0,
       "name": "redmoon",
@@ -5982,8 +7338,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_RefinedPalate",
+      "degree": 0,
+      "name": "refinedpalate",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ascetic"
+        ],
+        "customName": false,
+        "stats": [
+          "x70% eating speed"
+        ]
+      },
+      "description": "Only the finest of culinary creations may grace the lips of Timmy. They feel neutral towards mundane meals, but will laud and savour lavish meals down to the last bite.",
+      "stats": [
+        "x70% eating speed"
+      ],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA28xlg",
       "degree": 0,
       "name": "repairman",
@@ -6011,8 +7394,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Scientist",
       "degree": 2,
       "name": "researcher",
@@ -6070,8 +7453,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "AIRobot_BaseTrait",
       "degree": 1,
       "name": "robot",
@@ -6101,8 +7484,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "NaturalMood",
       "degree": 2,
       "name": "sanguine",
@@ -6120,8 +7503,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Schizoid",
+      "degree": 0,
+      "name": "schizoid",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "iron-willed",
+          "steadfast",
+          "nervous",
+          "volatile"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has trouble expressing themselves until its all too much to bear, whereafter they will have an utter meltdown.",
+      "stats": [],
+      "conflicts": [
+        "iron-willed",
+        "steadfast",
+        "nervous",
+        "volatile"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Scientist",
       "degree": 1,
       "name": "scientist",
@@ -6181,8 +7593,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB05ll",
       "degree": 0,
       "name": "seasoned",
@@ -6224,8 +7636,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB08zkw",
       "degree": 0,
       "name": "seeknovelty",
@@ -6255,8 +7667,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB21sm",
       "degree": 0,
       "name": "shaman",
@@ -6292,8 +7704,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Tamer",
       "degree": 1,
       "name": "shepherd",
@@ -6355,8 +7767,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTA01mhgg",
       "degree": 0,
       "name": "showmoe",
@@ -6384,8 +7796,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA11tnjm",
       "degree": 0,
       "name": "shrewd",
@@ -6419,8 +7831,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Immunity",
       "degree": -1,
       "name": "sickly",
@@ -6442,8 +7854,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ02bd",
       "degree": 0,
       "name": "silly",
@@ -6477,8 +7889,73 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "SimpleMindedAndroid",
+      "degree": 0,
+      "name": "simpleminded",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "-90.00% social impact"
+        ]
+      },
+      "description": "Due to the limitations of this androids mind: they are only barely able to understand and feel emotion. This makes them less than desired in social situations.",
+      "stats": [
+        "-90.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Hygienic",
+      "degree": -2,
+      "name": "slob",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has very low standards of cleanliness and will only wash when they absolutely have to.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Slob",
+      "degree": 0,
+      "name": "slob",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "neat"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is sloppy naturally and leaves trash and dirt everywhere it seems. At least they're not much bothered by messes.",
+      "stats": [],
+      "conflicts": [
+        "neat"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Industriousness",
       "degree": -2,
       "name": "slothful",
@@ -6487,12 +7964,14 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "-35% global work speed"
+          "-35% global work speed",
+          "x80% mental break threshold"
         ]
       },
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
       "stats": [
-        "-35% global work speed"
+        "-35% global work speed",
+        "x80% mental break threshold"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -6500,8 +7979,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ07lt",
       "degree": 0,
       "name": "slovenly",
@@ -6527,8 +8006,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "SlowLearner",
       "degree": 0,
       "name": "slowlearner",
@@ -6539,12 +8018,16 @@
         ],
         "customName": false,
         "stats": [
-          "-75% global learning factor"
+          "-75% global learning factor",
+          "x110% global work speed",
+          "x125% general labor speed"
         ]
       },
       "description": "Timmy is slow on the uptake. he learns much slower than others.",
       "stats": [
-        "-75% global learning factor"
+        "-75% global learning factor",
+        "x110% global work speed",
+        "x125% general labor speed"
       ],
       "conflicts": [
         "toosmart"
@@ -6554,8 +8037,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "SpeedOffset",
       "degree": -1,
       "name": "slowpoke",
@@ -6579,8 +8062,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Snob",
+      "degree": 0,
+      "name": "snob",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ascetic"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy believes they belong in high society, and loves nothing more than critiquing art and brushing elbows with royalty.",
+      "stats": [],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTR01sl",
       "degree": 0,
       "name": "snobbish",
@@ -6602,8 +8108,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTZ04tsz",
       "degree": 0,
       "name": "somnolence",
@@ -6629,8 +8135,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB10tlzy",
       "degree": 0,
       "name": "soundofnature",
@@ -6658,8 +8164,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC04smcbz",
       "degree": 0,
       "name": "soweroflife",
@@ -6691,8 +8197,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTB02cyz",
       "degree": 0,
       "name": "space-timetraveler",
@@ -6720,8 +8226,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC10cgs",
       "degree": 0,
       "name": "speeding",
@@ -6749,8 +8255,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB18ydjj",
       "degree": 0,
       "name": "sportsmaster",
@@ -6784,8 +8290,33 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Squeamish",
+      "degree": 0,
+      "name": "squeamish",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ironstomach",
+          "desensitized"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Sour stomach plagues Timmy any time they're around too much blood or rotting corpses. Vomiting is just part of life for him.",
+      "stats": [],
+      "conflicts": [
+        "ironstomach",
+        "desensitized"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Beauty",
       "degree": -2,
       "name": "staggeringlyugly",
@@ -6794,12 +8325,18 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "-2.0 beauty"
+          "Inspired trade inspiration disabled.",
+          "Inspired recruitment inspiration disabled.",
+          "-2.0 beauty",
+          "x115% global work speed"
         ]
       },
       "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
       "stats": [
-        "-2.0 beauty"
+        "Inspired trade inspiration disabled.",
+        "Inspired recruitment inspiration disabled.",
+        "-2.0 beauty",
+        "x115% global work speed"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -6807,8 +8344,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nerves",
       "degree": 1,
       "name": "steadfast",
@@ -6830,8 +8367,64 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Stoner",
+      "degree": 0,
+      "name": "stoner",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Smokeleaf culture is just part of life for Timmy. he absolutely adores smokeleaf and would rather die before giving it up.",
+      "stats": [],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Straight",
+      "degree": 0,
+      "name": "straight",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "asexual",
+          "bisexual",
+          "gay"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is romantically attracted to people of the opposite gender.",
+      "stats": [],
+      "conflicts": [
+        "asexual",
+        "bisexual",
+        "gay"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA15qz",
       "degree": 0,
       "name": "strong",
@@ -6857,8 +8450,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Submissive",
+      "degree": 0,
+      "name": "submissive",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "rebel"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy needs clear instructions on how, and when to do certain things and will only work at a normal speed when being forced to do something.",
+      "stats": [],
+      "conflicts": [
+        "rebel"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Immunity",
       "degree": 1,
       "name": "super-immune",
@@ -6880,8 +8496,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTC14qy",
       "degree": 0,
       "name": "superluck",
@@ -6921,8 +8537,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LC_Doctor",
       "degree": 2,
       "name": "surgeon",
@@ -6982,8 +8598,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "VanyaTB04sczj",
       "degree": 0,
       "name": "survivalexpert",
@@ -7019,8 +8635,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTF04skjs",
       "degree": 0,
       "name": "swordmasterofsquin",
@@ -7060,8 +8676,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTB17xss",
       "degree": 0,
       "name": "tamer",
@@ -7091,8 +8707,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Technophobe",
+      "degree": 0,
+      "name": "technophobe",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "transhumanist"
+        ],
+        "customName": false,
+        "stats": [
+          "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+        ]
+      },
+      "description": "Whether by past trauma or fear of change, Timmy rejects modernity. They may randomly punch or attack mechanical devices and refuse to learn or research anything about them. They also love killing mechanoids.",
+      "stats": [
+        "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+      ],
+      "conflicts": [
+        "transhumanist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "DrugDesire",
       "degree": -1,
       "name": "teetotaler",
@@ -7116,8 +8759,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS07ds",
       "degree": 0,
       "name": "themaster",
@@ -7165,8 +8808,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS06fkzs",
       "degree": 0,
       "name": "theprophet",
@@ -7216,8 +8859,54 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_ThickSkinned",
+      "degree": 0,
+      "name": "thickskinned",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "thinskinned"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is strangely hypercoagulating and will bleed much more slowly than most.",
+      "stats": [],
+      "conflicts": [
+        "thinskinned"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_ThinSkinned",
+      "degree": 0,
+      "name": "thinskinned",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "thickskinned"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is strangely hemophilic and tends to bleed much more profusely than others.",
+      "stats": [],
+      "conflicts": [
+        "thickskinned"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "TooSmart",
       "degree": 0,
       "name": "toosmart",
@@ -7251,10 +8940,10 @@
       "bypassLimit": false
     },
     {
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ChildrenToYoungToWork",
       "degree": 0,
       "name": "tooyoungtowork",
@@ -7272,8 +8961,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "TorturedArtist",
       "degree": 0,
       "name": "torturedartist",
@@ -7282,12 +8971,26 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "Morbid meditation focus type allowed."
+          "Go frenzy inspiration disabled.",
+          "Shoot frenzy inspiration disabled.",
+          "Inspired trade inspiration disabled.",
+          "Inspired recruitment inspiration disabled.",
+          "Inspired surgery inspiration disabled.",
+          "Inspired taming inspiration disabled.",
+          "Morbid meditation focus type allowed.",
+          "+2 artistic"
         ]
       },
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "Go frenzy inspiration disabled.",
+        "Shoot frenzy inspiration disabled.",
+        "Inspired trade inspiration disabled.",
+        "Inspired recruitment inspiration disabled.",
+        "Inspired surgery inspiration disabled.",
+        "Inspired taming inspiration disabled.",
+        "Morbid meditation focus type allowed.",
+        "+2 artistic"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -7295,8 +8998,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Tough",
       "degree": 0,
       "name": "tough",
@@ -7318,8 +9021,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Transhumanist",
       "degree": 0,
       "name": "transhumanist",
@@ -7341,8 +9044,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ShootingAccuracy",
       "degree": -1,
       "name": "trigger-happy",
@@ -7370,8 +9073,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD04aj",
       "degree": 0,
       "name": "tsundere",
@@ -7429,8 +9132,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Tycoon",
+      "degree": 0,
+      "name": "tycoon",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 social",
+          "+4 crafting",
+          "+25.00% trade price improvement"
+        ]
+      },
+      "description": "Timmy has an eye for silver and a tongue made from it. They believe their products are the best products and he will likely convince you if given the chance.",
+      "stats": [
+        "+4 social",
+        "+4 crafting",
+        "+25.00% trade price improvement"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Beauty",
       "degree": -1,
       "name": "ugly",
@@ -7439,12 +9169,16 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "-1.0 beauty"
+          "Inspired recruitment inspiration disabled.",
+          "-1.0 beauty",
+          "x110% global work speed"
         ]
       },
       "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
       "stats": [
-        "-1.0 beauty"
+        "Inspired recruitment inspiration disabled.",
+        "-1.0 beauty",
+        "x110% global work speed"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -7452,8 +9186,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Undergrounder",
       "degree": 0,
       "name": "undergrounder",
@@ -7475,8 +9209,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "Hygienic",
+      "degree": -1,
+      "name": "unhygienic",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is very unhygienic and will wash less frequently.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA20ba",
       "degree": 0,
       "name": "universallove",
@@ -7506,8 +9259,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Vengeful",
+      "degree": 0,
+      "name": "vengeful",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "kind"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is fueled by spite. They can't stand walking on the same soil as their rivals and will be elated by news of their life ending.",
+      "stats": [],
+      "conflicts": [
+        "kind"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Neurotic",
       "degree": 2,
       "name": "veryneurotic",
@@ -7531,8 +9307,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Nerves",
       "degree": -2,
       "name": "volatile",
@@ -7541,12 +9317,16 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "+15% mental break threshold"
+          "+3 intellectual",
+          "+15% mental break threshold",
+          "x115% global learning factor"
         ]
       },
       "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
       "stats": [
-        "+15% mental break threshold"
+        "+3 intellectual",
+        "+15% mental break threshold",
+        "x115% global learning factor"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -7554,8 +9334,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Wanderlust",
+      "degree": 0,
+      "name": "wanderlust",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+0.2 foraged food amount"
+        ]
+      },
+      "description": "Timmy loves to travel and does so swiftly, but can grow upset if they haven't done so in a while. They are also quite adept at foraging while traveling.",
+      "stats": [
+        "+0.2 foraged food amount"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTF02tyqs",
       "degree": 0,
       "name": "warriorofthesun",
@@ -7597,8 +9400,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "LingTA01haxz",
       "degree": 0,
       "name": "watchman",
@@ -7622,8 +9425,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "ChildrenWerewolfChild",
       "degree": 0,
       "name": "werewolf-child",
@@ -7641,8 +9444,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTS05jf",
       "degree": 0,
       "name": "whirlwind",
@@ -7684,8 +9487,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Wimp",
       "degree": 0,
       "name": "wimp",
@@ -7696,12 +9499,16 @@
         ],
         "customName": false,
         "stats": [
-          "-60% pain shock threshold"
+          "+3 medical",
+          "-60% pain shock threshold",
+          "x120% move speed"
         ]
       },
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
       "stats": [
-        "-60% pain shock threshold"
+        "+3 medical",
+        "-60% pain shock threshold",
+        "x120% move speed"
       ],
       "conflicts": [
         "brawler"
@@ -7711,8 +9518,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTA26njg",
       "degree": 0,
       "name": "winemaker",
@@ -7740,8 +9547,58 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_Workaholic",
+      "degree": 0,
+      "name": "workaholic",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "absent-minded",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has problems taking breaks or resting mid job. he will continue to work even sacrificing their health or sleep.",
+      "stats": [],
+      "conflicts": [
+        "absent-minded",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "VTE_WorldWeary",
+      "degree": 0,
+      "name": "worldweary",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has grown tired of the world and needs to be constantly distracted to stop dark thoughts. his bleak personality is a big downer and therefore it is very hard to become friends with them.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Xenophobia",
       "degree": -1,
       "name": "xenophile",
@@ -7759,8 +9616,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "Xenophobia",
       "degree": 1,
       "name": "xenophobe",
@@ -7778,8 +9635,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
+      "addPrice": 1500,
+      "removePrice": 500,
       "defName": "PTD01bj",
       "degree": 0,
       "name": "yandere",
@@ -7853,11 +9710,53 @@
         "bornleader"
       ],
       "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1500,
+      "removePrice": 500,
+      "defName": "RF_ZirsCorruption",
+      "degree": 0,
+      "name": "zir'scorruption",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "blessingofzir"
+        ],
+        "customName": false,
+        "stats": [
+          "x25% general labor speed",
+          "x300% move speed",
+          "x400% mental break threshold",
+          "x150% melee hit chance"
+        ]
+      },
+      "description": "Timmy's mind has been twisted by Zir!\nAn obsession or hatred revolving around Machine God Zir has lead this individual to madness, but also unlocked previously unknown physical prowess.",
+      "stats": [
+        "x25% general labor speed",
+        "x300% move speed",
+        "x400% mental break threshold",
+        "x150% melee hit chance"
+      ],
+      "conflicts": [
+        "blessingofzir"
+      ],
+      "bypassLimit": false
     }
   ],
   "races": [
     {
-      "price": 3000,
+      "price": 1000,
+      "defName": "ChjAndroid",
+      "enabled": true,
+      "name": "Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
       "defName": "Alien_Astoriel",
       "enabled": true,
       "name": "astoriel",
@@ -7866,25 +9765,16 @@
       }
     },
     {
-      "price": 3000,
-      "defName": "Alien_Bunlander",
+      "price": 1000,
+      "defName": "ChjBattleDroid",
       "enabled": true,
-      "name": "Bun",
+      "name": "Battle droid",
       "data": {
         "customName": false
       }
     },
     {
-      "price": 3000,
-      "defName": "Alien_BunTribeNew",
-      "enabled": true,
-      "name": "Bun",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 3000,
+      "price": 1000,
       "defName": "Alien_BunTribe",
       "enabled": true,
       "name": "Bun",
@@ -7893,7 +9783,79 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
+      "defName": "Alien_BunTribeNew",
+      "enabled": false,
+      "name": "Bun",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "Alien_Bunlander",
+      "enabled": false,
+      "name": "Bun",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3333,
+      "defName": "ATK_Caninemorph",
+      "enabled": false,
+      "name": "caninemorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3333,
+      "defName": "ATK_Cervinemorph",
+      "enabled": false,
+      "name": "cervinemorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "DesignerMatesXH",
+      "enabled": false,
+      "name": "designer mate",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3750,
+      "defName": "ATK_Dragomorph",
+      "enabled": false,
+      "name": "dragomorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "ChjDroid",
+      "enabled": true,
+      "name": "Droid",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3333,
+      "defName": "ATK_Felinemorph",
+      "enabled": false,
+      "name": "felinemorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
       "defName": "Alien_Bear",
       "enabled": true,
       "name": "Fell Bear",
@@ -7902,7 +9864,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Alien_Fox",
       "enabled": true,
       "name": "Fell Fox",
@@ -7911,7 +9873,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Alien_Lynx",
       "enabled": true,
       "name": "Fell Lynx",
@@ -7920,7 +9882,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Alien_Serval",
       "enabled": true,
       "name": "Fell Serval",
@@ -7929,7 +9891,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Alien_Wolf",
       "enabled": true,
       "name": "Fell Wolf",
@@ -7938,7 +9900,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "AFerian",
       "enabled": true,
       "name": "Ferian",
@@ -7947,7 +9909,7 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Human",
       "enabled": true,
       "name": "human",
@@ -7956,7 +9918,25 @@
       }
     },
     {
-      "price": 3000,
+      "price": 3333,
+      "defName": "ATK_Lagomorph",
+      "enabled": false,
+      "name": "lagomorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "ALapelli",
+      "enabled": true,
+      "name": "Lapelli",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
       "defName": "Lemolim",
       "enabled": true,
       "name": "lemolim",
@@ -7965,7 +9945,34 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
+      "defName": "M7Mech",
+      "enabled": false,
+      "name": "M7 Mechanised infantry",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "Alien_Moyo",
+      "enabled": true,
+      "name": "Moyo",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
+      "defName": "Alien_Nyaron",
+      "enabled": true,
+      "name": "Nyaron",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1000,
       "defName": "Ratkin",
       "enabled": true,
       "name": "Ratkin",
@@ -7974,10 +9981,91 @@
       }
     },
     {
-      "price": 3000,
+      "price": 1000,
       "defName": "Ratkin_Su",
       "enabled": true,
       "name": "Ratkin subject",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 2917,
+      "defName": "ScaleManXH",
+      "enabled": true,
+      "name": "Scaleman",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 2917,
+      "defName": "SoldiermorphXH",
+      "enabled": false,
+      "name": "soldiermorph",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 2333,
+      "defName": "Android1Tier",
+      "enabled": true,
+      "name": "T1 Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 4167,
+      "defName": "Android2Tier",
+      "enabled": true,
+      "name": "T2 Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 8000,
+      "defName": "Android3Tier",
+      "enabled": true,
+      "name": "T3 Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 10000,
+      "defName": "Android4Tier",
+      "enabled": true,
+      "name": "T4 Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 13333,
+      "defName": "Android5Tier",
+      "enabled": true,
+      "name": "T5 Android",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 5000,
+      "defName": "Vulpes",
+      "enabled": true,
+      "name": "Vulpes",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 2917,
+      "defName": "WolfManXH",
+      "enabled": true,
+      "name": "wolfman",
       "data": {
         "customName": false
       }
