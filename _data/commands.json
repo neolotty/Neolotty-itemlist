@@ -181,16 +181,6 @@
   },
   {
     "data": {
-      "isShortcut": false
-    },
-    "description": "Shows you the complete list of installed mods.",
-    "name": "Installed mods",
-    "usage": "!installedmods",
-    "userLevel": "Anyone",
-    "shortcut": false
-  },
-  {
-    "data": {
       "isShortcut": true
     },
     "description": "A colony wide resurrector mech serum.",
